@@ -143,7 +143,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Book meta-information</description>
+    <description>This object holds the information about the physical book meaning one instance of Book custom object</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -153,13 +153,14 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Book</label>
+    <label>Book Copy</label>
     <nameField>
-        <label>Title</label>
-        <type>Text</type>
+        <displayFormat>copy-{0}</displayFormat>
+        <label>Book Copy ID</label>
+        <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Books</pluralLabel>
+    <pluralLabel>Book Copies</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
