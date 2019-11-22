@@ -155,7 +155,7 @@
     <enableStreamingApi>true</enableStreamingApi>
     <label>Book</label>
     <nameField>
-        <label>Title</label>
+        <label>Book Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>Books</pluralLabel>
