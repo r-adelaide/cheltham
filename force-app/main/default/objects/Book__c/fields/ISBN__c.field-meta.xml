@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ISBN__c</fullName>
+    <description>International Standard Book Number used to identify the book. Usually appears as a barcode</description>
+    <externalId>true</externalId>
+    <inlineHelpText>An example of an ISBN-13 number would be 978-3-16-148410-0
+Books before 2007 use ISBN-10 such as  0-545-01022-5</inlineHelpText>
+    <label>ISBN</label>
+    <length>17</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
