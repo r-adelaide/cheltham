@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>ISBN__c</fullName>
-    <description>This field is number that&#39;s used as a unique identifier for books internationally</description>
+    <description>This field represents the International Standard Book Number, a numeric commercial book identifier which is intended to be unique</description>
     <externalId>false</externalId>
     <label>ISBN</label>
-    <precision>18</precision>
+    <precision>13</precision>
     <required>false</required>
     <scale>0</scale>
     <trackTrending>false</trackTrending>
     <type>Number</type>
-    <unique>false</unique>
+    <unique>true</unique>
 </CustomField>
