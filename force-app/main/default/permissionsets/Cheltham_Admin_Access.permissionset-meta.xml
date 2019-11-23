@@ -31,6 +31,11 @@
         <field>Book__c.Summary__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Borrow_Log__c.Due_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Cheltham Admin Access</label>
     <objectPermissions>
@@ -58,5 +63,9 @@
     <tabSettings>
         <tab>Book__c</tab>
         <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Borrow_Log__c</tab>
+        <visibility>Available</visibility>
     </tabSettings>
 </PermissionSet>
