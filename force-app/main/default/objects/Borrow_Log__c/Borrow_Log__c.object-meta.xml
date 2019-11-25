@@ -155,12 +155,16 @@
     <enableStreamingApi>true</enableStreamingApi>
     <label>Borrow Log</label>
     <nameField>
-        <displayFormat>{0}</displayFormat>
+        <displayFormat>B{0000}</displayFormat>
         <label>Borrow ID</label>
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Borrow Log</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts>
+        <searchResultsAdditionalFields>Book_Copy__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Contact__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Due_Date__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

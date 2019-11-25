@@ -159,7 +159,11 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Books</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts>
+        <searchResultsAdditionalFields>Author__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Edition__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ISBN__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

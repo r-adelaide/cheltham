@@ -3,7 +3,7 @@
     <fullName>Due_Date__c</fullName>
     <description>The date that the borrowed book is due</description>
     <externalId>false</externalId>
-    <formula>TODAY() + 14</formula>
+    <formula>CreatedDate  + 14</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Due Date</label>
     <required>false</required>
