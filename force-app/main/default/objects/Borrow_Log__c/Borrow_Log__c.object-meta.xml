@@ -164,6 +164,7 @@
         <searchResultsAdditionalFields>Book_Copy__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Contact__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Due_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Returned__c</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>

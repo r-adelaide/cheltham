@@ -2,7 +2,7 @@
 <ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>validateBookCopyAvailability</fullName>
     <active>true</active>
-    <description>Before permitting a borrow, validate that the book copy status is available.</description>
-    <errorConditionFormula>NOT( ISPICKVAL(Book_Copy__r.Status__c, &#39;Available&#39;) )</errorConditionFormula>
+    <description>Before permitting a new borrow, validate that the book copy status is available.</description>
+    <errorConditionFormula>IF(ISNEW(),NOT(ISPICKVAL(Book_Copy__r.Status__c, &#39;Available&#39;)), False)</errorConditionFormula>
     <errorMessage>This book is unavailable for borrow.</errorMessage>
 </ValidationRule>
