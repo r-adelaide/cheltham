@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>Specifies who has access to the Cheltham library books</description>
+    <description>Grants admin access on the library application to the selected users.</description>
     <fieldPermissions>
         <editable>true</editable>
         <field>Book__c.Author__c</field>
