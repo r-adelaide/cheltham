@@ -155,8 +155,9 @@
     <enableStreamingApi>true</enableStreamingApi>
     <label>Book Copy</label>
     <nameField>
+        <displayFormat>B-{YYYY}-{0000}</displayFormat>
         <label>Book Copy Name</label>
-        <type>Text</type>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Book Copies</pluralLabel>
     <searchLayouts/>
