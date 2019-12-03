@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>newRecordReturnedFieldFalse</fullName>
+    <active>true</active>
+    <description>The Returned field must be false when creating a new Borrow Log record.</description>
+    <errorConditionFormula>ISNEW() &amp;&amp;  Returned__c</errorConditionFormula>
+    <errorMessage>The Returned field should not be selected when borrowing a book.</errorMessage>
+</ValidationRule>

@@ -3,6 +3,6 @@
     <fullName>validateReturnedField</fullName>
     <active>true</active>
     <description>Prohibit returned books from being &#39;un-returned&#39; on the Borrow Log.</description>
-    <errorConditionFormula>IF(  ISCHANGED( Returned__c )  &amp;&amp;  Returned__c  = False , True , False)</errorConditionFormula>
+    <errorConditionFormula>ISCHANGED( Returned__c )  &amp;&amp;   NOT(Returned__c)</errorConditionFormula>
     <errorMessage>Please use the borrow action to re-borrow a returned book.</errorMessage>
 </ValidationRule>
