@@ -12,12 +12,12 @@
                 <field>Name</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Status__c</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Required</behavior>
                 <field>Book__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>StatusReadOnly__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns/>
@@ -54,11 +54,6 @@
     </layoutSections>
     <platformActionList>
         <actionListContext>Record</actionListContext>
-        <platformActionListItems>
-            <actionName>Book_Copy__c.Borrow</actionName>
-            <actionType>QuickAction</actionType>
-            <sortOrder>0</sortOrder>
-        </platformActionListItems>
         <platformActionListItems>
             <actionName>Edit</actionName>
             <actionType>StandardButton</actionType>
@@ -114,6 +109,11 @@
             <actionType>StandardButton</actionType>
             <sortOrder>11</sortOrder>
         </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Book_Copy__c.Borrow</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>0</sortOrder>
+        </platformActionListItems>
     </platformActionList>
     <relatedLists>
         <fields>NAME</fields>
@@ -125,7 +125,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h0p000000JxU6</masterLabel>
+        <masterLabel>00h0w000000a9uA</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>
