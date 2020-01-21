@@ -143,26 +143,29 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Physical book</description>
+    <description>A record of book copies lent to contacts, and their due date</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
-    <enableReports>false</enableReports>
+    <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Book Copy</label>
+    <label>Borrow Log</label>
     <nameField>
-        <displayFormat>B-{YYYY}-{0000}</displayFormat>
-        <label>Book Copy Name</label>
+        <displayFormat>B{0000}</displayFormat>
+        <label>Borrow ID</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Book Copies</pluralLabel>
+    <pluralLabel>Borrow Log</pluralLabel>
     <searchLayouts>
-        <searchResultsAdditionalFields>Book__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Book_Copy__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Book_Title__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Contact__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Due_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Returned__c</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>

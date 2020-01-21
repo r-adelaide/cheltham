@@ -6,7 +6,7 @@
     <inlineHelpText>An example of an ISBN-13 number would be 978-3-16-148410-0
 Books before 2007 use ISBN-10 such as  0-545-01022-5</inlineHelpText>
     <label>ISBN</label>
-    <length>17</length>
+    <length>13</length>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Text</type>

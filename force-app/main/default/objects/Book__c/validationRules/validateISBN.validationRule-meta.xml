@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>validateISBN</fullName>
+    <active>true</active>
+    <description>Check whether the ISBN only contains numbers.</description>
+    <errorConditionFormula>NOT( ISNUMBER( ISBN__c ) &amp;&amp;  (LEN(ISBN__c)  = 13) )</errorConditionFormula>
+    <errorMessage>Please enter a 13 digit ISBN</errorMessage>
+</ValidationRule>
