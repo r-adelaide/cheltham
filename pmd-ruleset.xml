@@ -9,7 +9,7 @@
     <!--
     * Note on priorities:
     *   1: hihgest level
-    *   5: lowest level 
+    *   5: lowest level
     *
     *   1: must fix (CI will stop on any of those)
     *   2: should fix (CI might refuse the PR). Not fixing those will make the code difficult to understand, test or debug.
